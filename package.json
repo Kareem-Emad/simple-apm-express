@@ -1,0 +1,30 @@
+{
+  "name": "simple-apm-express",
+  "version": "0.1.0",
+  "description": "express sdk for simple apm server, collects anlaytics for your endpoints/services and make them avaiable nearly realtime for analysis",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ignore-path .eslintignore .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/Kareem-Emad/simple-apm-express"
+  },
+  "keywords": [
+    "apm",
+    "apm-server",
+    "express"
+  ],
+  "author": "kareem emad",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.88.2",
+    "response-time": "^2.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.0.0",
+    "eslint-config-strongloop": "^2.1.0",
+    "eslint-plugin-mocha": "^7.0.1"
+  }
+}
